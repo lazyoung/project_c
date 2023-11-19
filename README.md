@@ -9,7 +9,7 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
    - [ ] Personal health data, including automated collection and manual recording
    - [ ] Special customization, combined data dimensions
 
-## user-interfaces:
+## UI views:
    - [ ] Daily plan/progress display, main interface
    - [ ] Add and configure new scoring items
    - [ ] Pomodoro clock, statistics of concentration time
@@ -18,7 +18,7 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
    - [ ] Calendar mode, statistics mode
    - [ ] Data backup/export/import mode
 
-## Challenge:
+## Challenges:
    - [ ] Digital twin model, using real-world data to train AI behavior
    - [ ] Automatically collect information based on address/sensor information
    - [ ] Multi-platform synchronization: watch/mac/html/email
