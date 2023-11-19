@@ -3,7 +3,7 @@
 Calculate, display and analyze daily self-discipline points based on multi-dimensional configurable weights;
 ````
 ## Data collections:
-   - [] Clock in the alarm time to supervise going to bed early and getting up early
+   - [ ] Clock in the alarm time to supervise going to bed early and getting up early
    - [] Focus on clocking in and maintaining the cat coin method
    - [] TODO list che c
    - [] Personal health data, including automated collection and manual recording
