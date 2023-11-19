@@ -5,7 +5,7 @@
     ```
         .
     ├── PomodoroCat
-    │   ├── Assets.xcassets
+    │   ├── Assets.xcassets // can be ignored
     │   │   ├── AccentColor.colorset
     │   │   │   └── Contents.json
     │   │   ├── AppIcon.appiconset
@@ -68,15 +68,15 @@
     │   │   └── yinghao.imageset
     │   │       ├── Contents.json
     │   │       └── yinghao.jpg
-    │   ├── Extension
+    │   ├── Extension // can be ignored
     │   │   └── ColorExtension.swift
-    │   ├── Extra
+    │   ├── Extra // can be ignored
     │   │   ├── AppVersion.swift
     │   │   ├── AudioURL.swift
     │   │   ├── Helper.swift
     │   │   └── ScreenSize.swift
-    │   ├── Info.plist
-    │   ├── Launch Screen
+    │   ├── Info.plist // can be ignored
+    │   ├── Launch Screen // to be extended
     │   │   └── Launch Screen.storyboard
     │   ├── Model
     │   │   ├── AudioPlayer.swift
@@ -85,10 +85,10 @@
     │   │   ├── PurchaseItem.swift
     │   │   └── Task.swift
     │   ├── PomodoroCat.swift
-    │   ├── Preview Content
+    │   ├── Preview Content // can be ignored
     │   │   └── Preview Assets.xcassets
     │   │       └── Contents.json
-    │   ├── Sound
+    │   ├── Sound // can be ignored
     │   │   ├── buy-fail.wav
     │   │   ├── buy-success.wav
     │   │   ├── cat-sound.wav
@@ -98,32 +98,32 @@
     │   ├── View Model
     │   │   ├── CatManager.swift
     │   │   └── TaskManager.swift
-    │   └── Views
-    │       ├── Cat
+    │   └── Views // top views
+    │       ├── Cat // can be ignore
     │       │   ├── CatMainView.swift
     │       │   ├── CatShopCell.swift
     │       │   └── CatShopView.swift
-    │       ├── CatCoinView.swift
-    │       ├── Creator
+    │       ├── CatCoinView.swift // to be extended
+    │       ├── Creator // can be ignored
     │       │   ├── GeniusView.swift
     │       │   └── ProfileView.swift
-    │       ├── IAP Purchase
+    │       ├── IAP Purchase // can be ignored
     │       │   ├── ShopItemCell.swift
     │       │   └── ShopView.swift
     │       ├── MainView.swift
-    │       ├── Settings
+    │       ├── Settings // can be ignored
     │       │   ├── SettingsIcon.swift
     │       │   ├── SettingsRowTypeAbout.swift
     │       │   ├── SettingsRowTypeLink.swift
     │       │   ├── SettingsView.swift
     │       │   ├── TimerPickerView.swift
     │       │   └── TimerSettingsRow.swift
-    │       └── Timer
+    │       └── Timer // to be extended
     │           ├── ButtonSetView.swift
     │           ├── TimerMainView.swift
     │           ├── TimerStats.swift
     │           └── TimerView.swift
-    ├── PomodoroCat.xcodeproj
+    ├── PomodoroCat.xcodeproj // can be ignored
     │   ├── project.pbxproj
     │   ├── project.xcworkspace
     │   │   ├── contents.xcworkspacedata
