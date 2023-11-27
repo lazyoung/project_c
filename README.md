@@ -36,8 +36,7 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
    - MainView.NavigationView.VStack
       - CoinsView: results show here
          - [ ] Coins weight settings
-         - [ ] Coins Collector
-         - [ ] Coins Statics
+         - [x] Coins Statics
          - [ ] Coins Analysis
       - TabView: different coins providers
          - Timer
@@ -45,6 +44,5 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
             - [x] TimerSettingView
                - [x] TimerSettingRow
             - [x] TimerPickeView
-            - [ ] TimerManager: need refactoring
          - [ ] TODO checkbox
          - [ ] health data
