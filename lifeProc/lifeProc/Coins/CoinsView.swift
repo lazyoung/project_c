@@ -15,7 +15,7 @@ struct CoinsView: View {
             
             HStack {
                 HStack {
-                    Text(" \(coinItemName) / daily coins:")
+                    Text(" \(coinItemName):")
                         .font(.body)
                         .fontWeight(.bold)
                         .foregroundColor(Color.yellow)

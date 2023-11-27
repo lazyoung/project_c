@@ -47,8 +47,6 @@ struct EntryView: View {
                     // TODO: personal health view
                     // TODO: diary view
                 }
-                .tabViewStyle(PageTabViewStyle())
-                .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
                 .navigationBarTitle(Text("LifeProc"))
                 .navigationBarTitleDisplayMode(.inline)
                 .onChange(of: selectionIndex) {

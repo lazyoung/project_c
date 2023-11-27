@@ -8,8 +8,7 @@ struct TimerMainView: View {
     @AppStorage("shortRest") private var shortRest = 2
     @AppStorage("longRest") private var longRest = 3
     @AppStorage("numOfSection") private var numOfSection = 2
-    
-    // MARK: - View
+
     var body: some View {
         
         ScrollView {
@@ -30,10 +29,10 @@ struct TimerMainView: View {
                 .padding(.vertical, 5)
                 .padding(.horizontal, 25)
                 .padding(.bottom, 5)
-                
-                
+
                 TimerView(timerManager: timerManager)
-                    .padding(20)
+                
+                Spacer()
                 
                 VStack {
                     NavigationLink(
@@ -68,7 +67,6 @@ struct TimerMainView: View {
                                 .buttonStyle(PlainButtonStyle())
                         }).id(UUID())
                 }
-                .padding()
             }
         }
         .onChange(of: work) {

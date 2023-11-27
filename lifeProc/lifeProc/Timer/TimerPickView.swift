@@ -12,7 +12,6 @@ struct TimerPickerView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    // MARK: - View
     var body: some View {
         
         Picker("Picker", selection: $selectionIndex) {
