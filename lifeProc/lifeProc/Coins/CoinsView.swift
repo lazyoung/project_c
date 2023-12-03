@@ -2,9 +2,9 @@ import SwiftUI
 
 struct CoinsView: View {
     
-    @AppStorage("itemCoins") private var itemCoins = 0
-    @AppStorage("dailyCoins") private var dailyCoins = 0
-    @AppStorage("coinItemName") private var coinItemName = "nil"
+    @Binding var itemCoins: Int
+    @Binding var dailyCoins: Int
+    @Binding var coinItemName: String
     
     let cornerRadius: CGFloat = 10
 
@@ -37,10 +37,3 @@ struct CoinsView: View {
     }
 }
 
-// MARK: - Preview
-struct CoinsView_Previews: PreviewProvider {
-    static var previews: some View {
-        CoinsView()
-            .previewLayout(.fixed(width: 375, height: 50))
-    }
-}

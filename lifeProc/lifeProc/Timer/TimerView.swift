@@ -66,7 +66,6 @@ struct TimerView: View {
 }
 
 
-// MARK: - Preview
 struct TimerView_Previews: PreviewProvider {
     static var previews: some View {
         TimerView(timerManager: TimerManager())

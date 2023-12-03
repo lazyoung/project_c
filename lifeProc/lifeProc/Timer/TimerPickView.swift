@@ -2,7 +2,6 @@ import SwiftUI
 
 struct TimerPickerView: View {
     
-    // MARK: - Variable
     @Binding var bindingNum: Int
     @State var selectionIndex: Int
     
@@ -38,4 +37,3 @@ struct TimerPickerView: View {
     }
     
 }
-

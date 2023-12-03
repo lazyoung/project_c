@@ -13,11 +13,11 @@
 		D0B0F6E32B0BC6F600B55D16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6E22B0BC6F600B55D16 /* Preview Assets.xcassets */; };
 		D0B0F6EE2B0BC9F900B55D16 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6ED2B0BC9F900B55D16 /* CoinsView.swift */; };
 		D0B0F6F42B0BCA2B00B55D16 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F32B0BCA2B00B55D16 /* TimerManager.swift */; };
-		D0B0F6F62B0BCA3100B55D16 /* TimerStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F52B0BCA3100B55D16 /* TimerStorage.swift */; };
 		D0B0F6FB2B0BCA3C00B55D16 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F72B0BCA3C00B55D16 /* TimerView.swift */; };
 		D0B0F6FC2B0BCA3C00B55D16 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F82B0BCA3C00B55D16 /* TimerMainView.swift */; };
 		D0B0F6FD2B0BCA3C00B55D16 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F92B0BCA3C00B55D16 /* TimerSettingsRowView.swift */; };
 		D0B0F6FE2B0BCA3C00B55D16 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6FA2B0BCA3C00B55D16 /* TimerPickView.swift */; };
+		D0D042AC2B1C1DB300872099 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D042AB2B1C1DB300872099 /* TodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		D0B0F6E22B0BC6F600B55D16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0B0F6ED2B0BC9F900B55D16 /* CoinsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		D0B0F6F32B0BCA2B00B55D16 /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
-		D0B0F6F52B0BCA3100B55D16 /* TimerStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerStorage.swift; sourceTree = "<group>"; };
 		D0B0F6F72B0BCA3C00B55D16 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		D0B0F6F82B0BCA3C00B55D16 /* TimerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMainView.swift; sourceTree = "<group>"; };
 		D0B0F6F92B0BCA3C00B55D16 /* TimerSettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSettingsRowView.swift; sourceTree = "<group>"; };
 		D0B0F6FA2B0BCA3C00B55D16 /* TimerPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerPickView.swift; sourceTree = "<group>"; };
+		D0D042AB2B1C1DB300872099 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		D0B0F6D92B0BC6F500B55D16 /* lifeProc */ = {
 			isa = PBXGroup;
 			children = (
+				D0D042AA2B1C1D9B00872099 /* Todo */,
 				D0B0F6EA2B0BC7E400B55D16 /* Coins */,
 				D0B0F6E92B0BC7DB00B55D16 /* Timer */,
 				D0B0F6DA2B0BC6F500B55D16 /* lifeProcApp.swift */,
@@ -92,7 +93,6 @@
 				D0B0F6FA2B0BCA3C00B55D16 /* TimerPickView.swift */,
 				D0B0F6F92B0BCA3C00B55D16 /* TimerSettingsRowView.swift */,
 				D0B0F6F72B0BCA3C00B55D16 /* TimerView.swift */,
-				D0B0F6F52B0BCA3100B55D16 /* TimerStorage.swift */,
 				D0B0F6F32B0BCA2B00B55D16 /* TimerManager.swift */,
 			);
 			path = Timer;
@@ -104,6 +104,14 @@
 				D0B0F6ED2B0BC9F900B55D16 /* CoinsView.swift */,
 			);
 			path = Coins;
+			sourceTree = "<group>";
+		};
+		D0D042AA2B1C1D9B00872099 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				D0D042AB2B1C1DB300872099 /* TodoView.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +186,9 @@
 			files = (
 				D0B0F6DD2B0BC6F500B55D16 /* EntryView.swift in Sources */,
 				D0B0F6DB2B0BC6F500B55D16 /* lifeProcApp.swift in Sources */,
+				D0D042AC2B1C1DB300872099 /* TodoView.swift in Sources */,
 				D0B0F6FD2B0BCA3C00B55D16 /* TimerSettingsRowView.swift in Sources */,
 				D0B0F6F42B0BCA2B00B55D16 /* TimerManager.swift in Sources */,
-				D0B0F6F62B0BCA3100B55D16 /* TimerStorage.swift in Sources */,
 				D0B0F6FE2B0BCA3C00B55D16 /* TimerPickView.swift in Sources */,
 				D0B0F6EE2B0BC9F900B55D16 /* CoinsView.swift in Sources */,
 				D0B0F6FB2B0BCA3C00B55D16 /* TimerView.swift in Sources */,

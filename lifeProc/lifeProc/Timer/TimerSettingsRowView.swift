@@ -2,7 +2,6 @@ import SwiftUI
 
 struct TimerSettingsRowView: View {
     
-    // MARK: - Variable
     var iconName: String
     var iconColor: Color
     var firstText: LocalizedStringKey
@@ -15,7 +14,6 @@ struct TimerSettingsRowView: View {
         self.iconColor = iconColor
     }
     
-    // MARK: - View
     var body: some View {
         HStack {
             
@@ -51,4 +49,5 @@ struct TimerSettingsRow_Previews: PreviewProvider {
             .padding()
     }
 }
+
 

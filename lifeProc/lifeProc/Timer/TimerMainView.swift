@@ -1,13 +1,12 @@
 import SwiftUI
 
 struct TimerMainView: View {
-    
-    // MARK: - Variable
+
     @ObservedObject var timerManager:TimerManager
-    @AppStorage("work") private var work = 5
-    @AppStorage("shortRest") private var shortRest = 2
-    @AppStorage("longRest") private var longRest = 3
-    @AppStorage("numOfSection") private var numOfSection = 2
+    @Binding var work: Int
+    @Binding var shortRest: Int
+    @Binding var longRest:Int
+    @Binding var numOfSection: Int
 
     var body: some View {
         
@@ -86,12 +85,10 @@ struct TimerMainView: View {
             timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
             timerManager.resetTimer()
         }
-    }
-}
-
-// MARK: - Preview
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        TimerMainView(timerManager: TimerManager())
+        .onAppear() {
+            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.currentMinute = timerManager.storage.workSeconds
+            timerManager.coins = 0
+        }
     }
 }
