@@ -46,3 +46,18 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
             - [x] TimerPickeView
          - [ ] TODO checkbox
          - [ ] health data
+
+# skeleton version
+   - Manual managed task based views
+      - task creation
+        - swipe to set weigth, list to select category
+      - task checkout
+        - swipe to rate, reschedule if not completed
+      - task statics
+        - overall + category + specials: period task / combined task
+        - graphic to show scores
+      - database
+        - FileManage with json/csv format database
+        - import legacy datas
+        - export for backup
+        - abstraction method for auto-collection
