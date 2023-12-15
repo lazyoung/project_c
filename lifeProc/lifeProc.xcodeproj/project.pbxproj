@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06BA9C02B2C5A68008E3BD4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA9BF2B2C5A68008E3BD4 /* Task.swift */; };
+		D06BA9C22B2C5AC4008E3BD4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA9C12B2C5AC4008E3BD4 /* Colors.swift */; };
+		D06BA9C42B2C5F46008E3BD4 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA9C32B2C5F46008E3BD4 /* TaskRow.swift */; };
+		D06BA9C62B2CB214008E3BD4 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA9C52B2CB214008E3BD4 /* TaskManager.swift */; };
 		D0B0F6DB2B0BC6F500B55D16 /* lifeProcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6DA2B0BC6F500B55D16 /* lifeProcApp.swift */; };
 		D0B0F6DD2B0BC6F500B55D16 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6DC2B0BC6F500B55D16 /* EntryView.swift */; };
 		D0B0F6DF2B0BC6F600B55D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6DE2B0BC6F600B55D16 /* Assets.xcassets */; };
@@ -17,10 +21,62 @@
 		D0B0F6FC2B0BCA3C00B55D16 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F82B0BCA3C00B55D16 /* TimerMainView.swift */; };
 		D0B0F6FD2B0BCA3C00B55D16 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6F92B0BCA3C00B55D16 /* TimerSettingsRowView.swift */; };
 		D0B0F6FE2B0BCA3C00B55D16 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6FA2B0BCA3C00B55D16 /* TimerPickView.swift */; };
-		D0D042AC2B1C1DB300872099 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D042AB2B1C1DB300872099 /* TodoView.swift */; };
+		D0D042AC2B1C1DB300872099 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D042AB2B1C1DB300872099 /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		D06BA9B92B2C5683008E3BD4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		D06BA9BA2B2C5683008E3BD4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		D06BA9BB2B2C5684008E3BD4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		D06BA9BC2B2C5688008E3BD4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
+		D06BA9B82B2C54C9008E3BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D06BA9BF2B2C5A68008E3BD4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D06BA9C12B2C5AC4008E3BD4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D06BA9C32B2C5F46008E3BD4 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		D06BA9C52B2CB214008E3BD4 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		D0B0F6D72B0BC6F500B55D16 /* lifeProc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeProc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B0F6DA2B0BC6F500B55D16 /* lifeProcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeProcApp.swift; sourceTree = "<group>"; };
 		D0B0F6DC2B0BC6F500B55D16 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
@@ -33,7 +89,7 @@
 		D0B0F6F82B0BCA3C00B55D16 /* TimerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMainView.swift; sourceTree = "<group>"; };
 		D0B0F6F92B0BCA3C00B55D16 /* TimerSettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSettingsRowView.swift; sourceTree = "<group>"; };
 		D0B0F6FA2B0BCA3C00B55D16 /* TimerPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerPickView.swift; sourceTree = "<group>"; };
-		D0D042AB2B1C1DB300872099 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		D0D042AB2B1C1DB300872099 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +122,7 @@
 		D0B0F6D92B0BC6F500B55D16 /* lifeProc */ = {
 			isa = PBXGroup;
 			children = (
+				D06BA9B82B2C54C9008E3BD4 /* Info.plist */,
 				D0D042AA2B1C1D9B00872099 /* Todo */,
 				D0B0F6EA2B0BC7E400B55D16 /* Coins */,
 				D0B0F6E92B0BC7DB00B55D16 /* Timer */,
@@ -109,7 +166,11 @@
 		D0D042AA2B1C1D9B00872099 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				D0D042AB2B1C1DB300872099 /* TodoView.swift */,
+				D06BA9C12B2C5AC4008E3BD4 /* Colors.swift */,
+				D06BA9BF2B2C5A68008E3BD4 /* Task.swift */,
+				D06BA9C32B2C5F46008E3BD4 /* TaskRow.swift */,
+				D0D042AB2B1C1DB300872099 /* TaskView.swift */,
+				D06BA9C52B2CB214008E3BD4 /* TaskManager.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -126,6 +187,10 @@
 				D0B0F6D52B0BC6F500B55D16 /* Resources */,
 			);
 			buildRules = (
+				D06BA9BC2B2C5688008E3BD4 /* PBXBuildRule */,
+				D06BA9BB2B2C5684008E3BD4 /* PBXBuildRule */,
+				D06BA9BA2B2C5683008E3BD4 /* PBXBuildRule */,
+				D06BA9B92B2C5683008E3BD4 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -142,7 +207,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					D0B0F6D62B0BC6F500B55D16 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -156,6 +221,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D0B0F6CE2B0BC6F500B55D16;
 			productRefGroup = D0B0F6D82B0BC6F500B55D16 /* Products */;
@@ -185,11 +251,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B0F6DD2B0BC6F500B55D16 /* EntryView.swift in Sources */,
+				D06BA9C02B2C5A68008E3BD4 /* Task.swift in Sources */,
+				D06BA9C42B2C5F46008E3BD4 /* TaskRow.swift in Sources */,
+				D06BA9C62B2CB214008E3BD4 /* TaskManager.swift in Sources */,
 				D0B0F6DB2B0BC6F500B55D16 /* lifeProcApp.swift in Sources */,
-				D0D042AC2B1C1DB300872099 /* TodoView.swift in Sources */,
+				D0D042AC2B1C1DB300872099 /* TaskView.swift in Sources */,
 				D0B0F6FD2B0BCA3C00B55D16 /* TimerSettingsRowView.swift in Sources */,
 				D0B0F6F42B0BCA2B00B55D16 /* TimerManager.swift in Sources */,
 				D0B0F6FE2B0BCA3C00B55D16 /* TimerPickView.swift in Sources */,
+				D06BA9C22B2C5AC4008E3BD4 /* Colors.swift in Sources */,
 				D0B0F6EE2B0BC9F900B55D16 /* CoinsView.swift in Sources */,
 				D0B0F6FB2B0BCA3C00B55D16 /* TimerView.swift in Sources */,
 				D0B0F6FC2B0BCA3C00B55D16 /* TimerMainView.swift in Sources */,
@@ -204,6 +274,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -233,6 +304,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -251,6 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -265,6 +338,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -294,6 +368,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -306,6 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -320,12 +396,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = lifeProc/lifeProc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"lifeProc/Preview Content\"";
 				DEVELOPMENT_TEAM = T2VQGFFPR2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifeProc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "lifeProc Ver_0.1";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -340,14 +420,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kingkongtree.lifeProc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,12 +439,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = lifeProc/lifeProc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"lifeProc/Preview Content\"";
 				DEVELOPMENT_TEAM = T2VQGFFPR2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifeProc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "lifeProc Ver_0.1";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -378,14 +463,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kingkongtree.lifeProc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
