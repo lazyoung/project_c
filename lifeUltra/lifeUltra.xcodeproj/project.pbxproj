@@ -1,0 +1,1188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D012CA522B2DAB29000B4DC0 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */; };
+		D012CA532B2DAB29000B4DC0 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */; };
+		D012CA542B2DAB29000B4DC0 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */; };
+		D093A9592B2CF7DC0067A598 /* lifeUltraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */; };
+		D093A95B2B2CF7DC0067A598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A95A2B2CF7DC0067A598 /* ContentView.swift */; };
+		D093A95D2B2CF7DD0067A598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A95C2B2CF7DD0067A598 /* Assets.xcassets */; };
+		D093A9602B2CF7DD0067A598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A95F2B2CF7DD0067A598 /* Preview Assets.xcassets */; };
+		D093A96A2B2CF7DD0067A598 /* lifeUltraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9692B2CF7DD0067A598 /* lifeUltraTests.swift */; };
+		D093A9742B2CF7DD0067A598 /* lifeUltraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9732B2CF7DD0067A598 /* lifeUltraUITests.swift */; };
+		D093A9762B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9752B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift */; };
+		D093A97C2B2CF7DE0067A598 /* lifeUltra Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D093A97B2B2CF7DE0067A598 /* lifeUltra Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D093A9812B2CF7DE0067A598 /* lifeUltraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9802B2CF7DE0067A598 /* lifeUltraApp.swift */; };
+		D093A9832B2CF7DE0067A598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9822B2CF7DE0067A598 /* ContentView.swift */; };
+		D093A9852B2CF7DE0067A598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A9842B2CF7DE0067A598 /* Assets.xcassets */; };
+		D093A9882B2CF7DE0067A598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A9872B2CF7DE0067A598 /* Preview Assets.xcassets */; };
+		D093A9922B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9912B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift */; };
+		D093A99C2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A99B2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITests.swift */; };
+		D093A99E2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A99D2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift */; };
+		D093A9CF2B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9D02B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9D12B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9D22B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9D32B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9D42B2CFD3F0067A598 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */; };
+		D093A9E02B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E12B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E22B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E32B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E42B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E52B2CFD790067A598 /* TimerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D62B2CFD790067A598 /* TimerPickView.swift */; };
+		D093A9E62B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9E72B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9E82B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9E92B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9EA2B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9EB2B2CFD790067A598 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D72B2CFD790067A598 /* TimerView.swift */; };
+		D093A9EC2B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9ED2B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9EE2B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9EF2B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9F02B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9F12B2CFD790067A598 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D82B2CFD790067A598 /* TimerManager.swift */; };
+		D093A9F22B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093A9F32B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093A9F42B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093A9F52B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093A9F62B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093A9F72B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */; };
+		D093AA092B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0A2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0B2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0C2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0D2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0E2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
+		D093AA0F2B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA102B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA112B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA122B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA132B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA142B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
+		D093AA152B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA162B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA172B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA182B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA192B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA1A2B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
+		D093AA1C2B2D0AC70067A598 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D093AA1D2B2D0AC70067A598 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D093AA1E2B2D0AC70067A598 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D0A92F332B2D0CFC0081F69F /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D52B2CFD790067A598 /* TimerMainView.swift */; };
+		D0A92F342B2D0CFD0081F69F /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D52B2CFD790067A598 /* TimerMainView.swift */; };
+		D0A92F352B2D0CFD0081F69F /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9D52B2CFD790067A598 /* TimerMainView.swift */; };
+		D0A92F372B2D0D430081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92F362B2D0D430081F69F /* TaskRow.swift */; };
+		D0A92F382B2D0D430081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92F362B2D0D430081F69F /* TaskRow.swift */; };
+		D0A92F392B2D0D430081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92F362B2D0D430081F69F /* TaskRow.swift */; };
+		D0A92F3A2B2D0D4A0081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9F92B2CFD830067A598 /* TaskRow.swift */; };
+		D0A92F3B2B2D0D4A0081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9F92B2CFD830067A598 /* TaskRow.swift */; };
+		D0A92F3C2B2D0D4B0081F69F /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9F92B2CFD830067A598 /* TaskRow.swift */; };
+		D0A92F4F2B2D19EA0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D0A92F502B2D19EB0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D0A92F512B2D19EC0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D093A9662B2CF7DD0067A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D093A94D2B2CF7DC0067A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D093A9542B2CF7DC0067A598;
+			remoteInfo = lifeUltra;
+		};
+		D093A9702B2CF7DD0067A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D093A94D2B2CF7DC0067A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D093A9542B2CF7DC0067A598;
+			remoteInfo = lifeUltra;
+		};
+		D093A97D2B2CF7DE0067A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D093A94D2B2CF7DC0067A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D093A97A2B2CF7DE0067A598;
+			remoteInfo = "lifeUltra Watch App";
+		};
+		D093A98E2B2CF7DE0067A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D093A94D2B2CF7DC0067A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D093A97A2B2CF7DE0067A598;
+			remoteInfo = "lifeUltra Watch App";
+		};
+		D093A9982B2CF7DE0067A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D093A94D2B2CF7DC0067A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D093A97A2B2CF7DE0067A598;
+			remoteInfo = "lifeUltra Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D093A9A42B2CF7DE0067A598 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D093A97C2B2CF7DE0067A598 /* lifeUltra Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMainView.swift; sourceTree = "<group>"; };
+		D093A9552B2CF7DC0067A598 /* lifeUltra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeUltra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraApp.swift; sourceTree = "<group>"; };
+		D093A95A2B2CF7DC0067A598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D093A95C2B2CF7DD0067A598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D093A95F2B2CF7DD0067A598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D093A9652B2CF7DD0067A598 /* lifeUltraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeUltraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A9692B2CF7DD0067A598 /* lifeUltraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraTests.swift; sourceTree = "<group>"; };
+		D093A96F2B2CF7DD0067A598 /* lifeUltraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeUltraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A9732B2CF7DD0067A598 /* lifeUltraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraUITests.swift; sourceTree = "<group>"; };
+		D093A9752B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D093A97B2B2CF7DE0067A598 /* lifeUltra Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lifeUltra Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A9802B2CF7DE0067A598 /* lifeUltraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraApp.swift; sourceTree = "<group>"; };
+		D093A9822B2CF7DE0067A598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D093A9842B2CF7DE0067A598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D093A9872B2CF7DE0067A598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D093A98D2B2CF7DE0067A598 /* lifeUltra Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lifeUltra Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A9912B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltra_Watch_AppTests.swift; sourceTree = "<group>"; };
+		D093A9972B2CF7DE0067A598 /* lifeUltra Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lifeUltra Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D093A99B2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltra_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		D093A99D2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltra_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
+		D093A9D52B2CFD790067A598 /* TimerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMainView.swift; sourceTree = "<group>"; };
+		D093A9D62B2CFD790067A598 /* TimerPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerPickView.swift; sourceTree = "<group>"; };
+		D093A9D72B2CFD790067A598 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D093A9D82B2CFD790067A598 /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSettingsRowView.swift; sourceTree = "<group>"; };
+		D093A9F92B2CFD830067A598 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		D093A9FA2B2CFD830067A598 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		D093A9FB2B2CFD830067A598 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D093A9FC2B2CFD830067A598 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D093AA1B2B2D0AC70067A598 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		D0A92F362B2D0D430081F69F /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D093A9522B2CF7DC0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9622B2CF7DD0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A96C2B2CF7DD0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9782B2CF7DE0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A98A2B2CF7DE0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9942B2CF7DE0067A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D093A94C2B2CF7DC0067A598 = {
+			isa = PBXGroup;
+			children = (
+				D093A9572B2CF7DC0067A598 /* lifeUltra */,
+				D093A9682B2CF7DD0067A598 /* lifeUltraTests */,
+				D093A9722B2CF7DD0067A598 /* lifeUltraUITests */,
+				D093A97F2B2CF7DE0067A598 /* lifeUltra Watch App */,
+				D093A9902B2CF7DE0067A598 /* lifeUltra Watch AppTests */,
+				D093A99A2B2CF7DE0067A598 /* lifeUltra Watch AppUITests */,
+				D093A9562B2CF7DC0067A598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D093A9562B2CF7DC0067A598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9552B2CF7DC0067A598 /* lifeUltra.app */,
+				D093A9652B2CF7DD0067A598 /* lifeUltraTests.xctest */,
+				D093A96F2B2CF7DD0067A598 /* lifeUltraUITests.xctest */,
+				D093A97B2B2CF7DE0067A598 /* lifeUltra Watch App.app */,
+				D093A98D2B2CF7DE0067A598 /* lifeUltra Watch AppTests.xctest */,
+				D093A9972B2CF7DE0067A598 /* lifeUltra Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D093A9572B2CF7DC0067A598 /* lifeUltra */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9D52B2CFD790067A598 /* TimerMainView.swift */,
+				D093AA1B2B2D0AC70067A598 /* TaskView.swift */,
+				D093A9FB2B2CFD830067A598 /* Colors.swift */,
+				D093A9FC2B2CFD830067A598 /* Task.swift */,
+				D093A9F92B2CFD830067A598 /* TaskRow.swift */,
+				D093A9FA2B2CFD830067A598 /* TaskManager.swift */,
+				D093A9D82B2CFD790067A598 /* TimerManager.swift */,
+				D093A9D62B2CFD790067A598 /* TimerPickView.swift */,
+				D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */,
+				D093A9D72B2CFD790067A598 /* TimerView.swift */,
+				D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */,
+				D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */,
+				D093A95A2B2CF7DC0067A598 /* ContentView.swift */,
+				D093A95C2B2CF7DD0067A598 /* Assets.xcassets */,
+				D093A95E2B2CF7DD0067A598 /* Preview Content */,
+			);
+			path = lifeUltra;
+			sourceTree = "<group>";
+		};
+		D093A95E2B2CF7DD0067A598 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D093A95F2B2CF7DD0067A598 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D093A9682B2CF7DD0067A598 /* lifeUltraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9692B2CF7DD0067A598 /* lifeUltraTests.swift */,
+			);
+			path = lifeUltraTests;
+			sourceTree = "<group>";
+		};
+		D093A9722B2CF7DD0067A598 /* lifeUltraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9732B2CF7DD0067A598 /* lifeUltraUITests.swift */,
+				D093A9752B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift */,
+			);
+			path = lifeUltraUITests;
+			sourceTree = "<group>";
+		};
+		D093A97F2B2CF7DE0067A598 /* lifeUltra Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */,
+				D0A92F362B2D0D430081F69F /* TaskRow.swift */,
+				D093A9802B2CF7DE0067A598 /* lifeUltraApp.swift */,
+				D093A9822B2CF7DE0067A598 /* ContentView.swift */,
+				D093A9842B2CF7DE0067A598 /* Assets.xcassets */,
+				D093A9862B2CF7DE0067A598 /* Preview Content */,
+			);
+			path = "lifeUltra Watch App";
+			sourceTree = "<group>";
+		};
+		D093A9862B2CF7DE0067A598 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9872B2CF7DE0067A598 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D093A9902B2CF7DE0067A598 /* lifeUltra Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D093A9912B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift */,
+			);
+			path = "lifeUltra Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D093A99A2B2CF7DE0067A598 /* lifeUltra Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D093A99B2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITests.swift */,
+				D093A99D2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "lifeUltra Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D093A9542B2CF7DC0067A598 /* lifeUltra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9A52B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra" */;
+			buildPhases = (
+				D093A9512B2CF7DC0067A598 /* Sources */,
+				D093A9522B2CF7DC0067A598 /* Frameworks */,
+				D093A9532B2CF7DC0067A598 /* Resources */,
+				D093A9A42B2CF7DE0067A598 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D093A97E2B2CF7DE0067A598 /* PBXTargetDependency */,
+			);
+			name = lifeUltra;
+			productName = lifeUltra;
+			productReference = D093A9552B2CF7DC0067A598 /* lifeUltra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D093A9642B2CF7DD0067A598 /* lifeUltraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9A82B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltraTests" */;
+			buildPhases = (
+				D093A9612B2CF7DD0067A598 /* Sources */,
+				D093A9622B2CF7DD0067A598 /* Frameworks */,
+				D093A9632B2CF7DD0067A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D093A9672B2CF7DD0067A598 /* PBXTargetDependency */,
+			);
+			name = lifeUltraTests;
+			productName = lifeUltraTests;
+			productReference = D093A9652B2CF7DD0067A598 /* lifeUltraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D093A96E2B2CF7DD0067A598 /* lifeUltraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9AB2B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltraUITests" */;
+			buildPhases = (
+				D093A96B2B2CF7DD0067A598 /* Sources */,
+				D093A96C2B2CF7DD0067A598 /* Frameworks */,
+				D093A96D2B2CF7DD0067A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D093A9712B2CF7DD0067A598 /* PBXTargetDependency */,
+			);
+			name = lifeUltraUITests;
+			productName = lifeUltraUITests;
+			productReference = D093A96F2B2CF7DD0067A598 /* lifeUltraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D093A97A2B2CF7DE0067A598 /* lifeUltra Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9A12B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch App" */;
+			buildPhases = (
+				D093A9772B2CF7DE0067A598 /* Sources */,
+				D093A9782B2CF7DE0067A598 /* Frameworks */,
+				D093A9792B2CF7DE0067A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lifeUltra Watch App";
+			productName = "lifeUltra Watch App";
+			productReference = D093A97B2B2CF7DE0067A598 /* lifeUltra Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D093A98C2B2CF7DE0067A598 /* lifeUltra Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9AE2B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch AppTests" */;
+			buildPhases = (
+				D093A9892B2CF7DE0067A598 /* Sources */,
+				D093A98A2B2CF7DE0067A598 /* Frameworks */,
+				D093A98B2B2CF7DE0067A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D093A98F2B2CF7DE0067A598 /* PBXTargetDependency */,
+			);
+			name = "lifeUltra Watch AppTests";
+			productName = "lifeUltra Watch AppTests";
+			productReference = D093A98D2B2CF7DE0067A598 /* lifeUltra Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D093A9962B2CF7DE0067A598 /* lifeUltra Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D093A9B12B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch AppUITests" */;
+			buildPhases = (
+				D093A9932B2CF7DE0067A598 /* Sources */,
+				D093A9942B2CF7DE0067A598 /* Frameworks */,
+				D093A9952B2CF7DE0067A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D093A9992B2CF7DE0067A598 /* PBXTargetDependency */,
+			);
+			name = "lifeUltra Watch AppUITests";
+			productName = "lifeUltra Watch AppUITests";
+			productReference = D093A9972B2CF7DE0067A598 /* lifeUltra Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D093A94D2B2CF7DC0067A598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D093A9542B2CF7DC0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D093A9642B2CF7DD0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D093A9542B2CF7DC0067A598;
+					};
+					D093A96E2B2CF7DD0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D093A9542B2CF7DC0067A598;
+					};
+					D093A97A2B2CF7DE0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D093A98C2B2CF7DE0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D093A97A2B2CF7DE0067A598;
+					};
+					D093A9962B2CF7DE0067A598 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D093A97A2B2CF7DE0067A598;
+					};
+				};
+			};
+			buildConfigurationList = D093A9502B2CF7DC0067A598 /* Build configuration list for PBXProject "lifeUltra" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D093A94C2B2CF7DC0067A598;
+			productRefGroup = D093A9562B2CF7DC0067A598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D093A9542B2CF7DC0067A598 /* lifeUltra */,
+				D093A9642B2CF7DD0067A598 /* lifeUltraTests */,
+				D093A96E2B2CF7DD0067A598 /* lifeUltraUITests */,
+				D093A97A2B2CF7DE0067A598 /* lifeUltra Watch App */,
+				D093A98C2B2CF7DE0067A598 /* lifeUltra Watch AppTests */,
+				D093A9962B2CF7DE0067A598 /* lifeUltra Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D093A9532B2CF7DC0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093A9602B2CF7DD0067A598 /* Preview Assets.xcassets in Resources */,
+				D093A95D2B2CF7DD0067A598 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9632B2CF7DD0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A96D2B2CF7DD0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9792B2CF7DE0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093A9882B2CF7DE0067A598 /* Preview Assets.xcassets in Resources */,
+				D093A9852B2CF7DE0067A598 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A98B2B2CF7DE0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9952B2CF7DE0067A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D093A9512B2CF7DC0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093AA0F2B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9E62B2CFD790067A598 /* TimerView.swift in Sources */,
+				D093A9E02B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D093AA092B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D093A9F22B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D0A92F3C2B2D0D4B0081F69F /* TaskRow.swift in Sources */,
+				D093A95B2B2CF7DC0067A598 /* ContentView.swift in Sources */,
+				D093AA1C2B2D0AC70067A598 /* TaskView.swift in Sources */,
+				D093AA152B2CFD830067A598 /* Task.swift in Sources */,
+				D093A9592B2CF7DC0067A598 /* lifeUltraApp.swift in Sources */,
+				D093A9CF2B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0A92F352B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
+				D093A9EC2B2CFD790067A598 /* TimerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9612B2CF7DD0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093A9F32B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D093AA102B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9E72B2CFD790067A598 /* TimerView.swift in Sources */,
+				D0A92F3B2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
+				D093AA1D2B2D0AC70067A598 /* TaskView.swift in Sources */,
+				D093AA0A2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D093AA162B2CFD830067A598 /* Task.swift in Sources */,
+				D093A96A2B2CF7DD0067A598 /* lifeUltraTests.swift in Sources */,
+				D0A92F342B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
+				D093A9E12B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D093A9ED2B2CFD790067A598 /* TimerManager.swift in Sources */,
+				D093A9D02B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A96B2B2CF7DD0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093AA112B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9E82B2CFD790067A598 /* TimerView.swift in Sources */,
+				D093A9E22B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D093AA0B2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D093A9F42B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D0A92F3A2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
+				D093A9742B2CF7DD0067A598 /* lifeUltraUITests.swift in Sources */,
+				D093AA1E2B2D0AC70067A598 /* TaskView.swift in Sources */,
+				D093AA172B2CFD830067A598 /* Task.swift in Sources */,
+				D093A9762B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift in Sources */,
+				D093A9D12B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0A92F332B2D0CFC0081F69F /* TimerMainView.swift in Sources */,
+				D093A9EE2B2CFD790067A598 /* TimerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9772B2CF7DE0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093AA122B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9E92B2CFD790067A598 /* TimerView.swift in Sources */,
+				D093A9E32B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D0A92F372B2D0D430081F69F /* TaskRow.swift in Sources */,
+				D093AA0C2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D012CA522B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,
+				D093A9F52B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D093A9832B2CF7DE0067A598 /* ContentView.swift in Sources */,
+				D0A92F4F2B2D19EA0081F69F /* TaskView.swift in Sources */,
+				D093AA182B2CFD830067A598 /* Task.swift in Sources */,
+				D093A9812B2CF7DE0067A598 /* lifeUltraApp.swift in Sources */,
+				D093A9D22B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D093A9EF2B2CFD790067A598 /* TimerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9892B2CF7DE0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093A9F62B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D093AA132B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9EA2B2CFD790067A598 /* TimerView.swift in Sources */,
+				D0A92F502B2D19EB0081F69F /* TaskView.swift in Sources */,
+				D093AA0D2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D093AA192B2CFD830067A598 /* Task.swift in Sources */,
+				D0A92F382B2D0D430081F69F /* TaskRow.swift in Sources */,
+				D093A9922B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift in Sources */,
+				D093A9E42B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D093A9F02B2CFD790067A598 /* TimerManager.swift in Sources */,
+				D012CA532B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,
+				D093A9D32B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D093A9932B2CF7DE0067A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D093AA142B2CFD830067A598 /* Colors.swift in Sources */,
+				D093A9EB2B2CFD790067A598 /* TimerView.swift in Sources */,
+				D093A9E52B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D093AA0E2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D093A9F72B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
+				D012CA542B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,
+				D093A99C2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITests.swift in Sources */,
+				D093AA1A2B2CFD830067A598 /* Task.swift in Sources */,
+				D0A92F512B2D19EC0081F69F /* TaskView.swift in Sources */,
+				D093A99E2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift in Sources */,
+				D0A92F392B2D0D430081F69F /* TaskRow.swift in Sources */,
+				D093A9D42B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D093A9F12B2CFD790067A598 /* TimerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D093A9672B2CF7DD0067A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D093A9542B2CF7DC0067A598 /* lifeUltra */;
+			targetProxy = D093A9662B2CF7DD0067A598 /* PBXContainerItemProxy */;
+		};
+		D093A9712B2CF7DD0067A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D093A9542B2CF7DC0067A598 /* lifeUltra */;
+			targetProxy = D093A9702B2CF7DD0067A598 /* PBXContainerItemProxy */;
+		};
+		D093A97E2B2CF7DE0067A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D093A97A2B2CF7DE0067A598 /* lifeUltra Watch App */;
+			targetProxy = D093A97D2B2CF7DE0067A598 /* PBXContainerItemProxy */;
+		};
+		D093A98F2B2CF7DE0067A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D093A97A2B2CF7DE0067A598 /* lifeUltra Watch App */;
+			targetProxy = D093A98E2B2CF7DE0067A598 /* PBXContainerItemProxy */;
+		};
+		D093A9992B2CF7DE0067A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D093A97A2B2CF7DE0067A598 /* lifeUltra Watch App */;
+			targetProxy = D093A9982B2CF7DE0067A598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D093A99F2B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D093A9A02B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D093A9A22B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lifeUltra Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeUltra;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lazyoung.lifeUltra;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltra.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D093A9A32B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lifeUltra Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeUltra;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lazyoung.lifeUltra;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltra.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D093A9A62B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lifeUltra/Preview Content\"";
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeUltra;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D093A9A72B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lifeUltra/Preview Content\"";
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeUltra;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D093A9A92B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifeUltra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lifeUltra";
+			};
+			name = Debug;
+		};
+		D093A9AA2B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifeUltra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lifeUltra";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D093A9AC2B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lifeUltra;
+			};
+			name = Debug;
+		};
+		D093A9AD2B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyoung.lifeUltraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lifeUltra;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D093A9AF2B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyoung.lifeUltra-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifeUltra Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lifeUltra Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D093A9B02B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyoung.lifeUltra-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lifeUltra Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lifeUltra Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D093A9B22B2CF7DE0067A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyoung.lifeUltra-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lifeUltra Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D093A9B32B2CF7DE0067A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR2WK6G64M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazyoung.lifeUltra-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lifeUltra Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D093A9502B2CF7DC0067A598 /* Build configuration list for PBXProject "lifeUltra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A99F2B2CF7DE0067A598 /* Debug */,
+				D093A9A02B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9A12B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9A22B2CF7DE0067A598 /* Debug */,
+				D093A9A32B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9A52B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9A62B2CF7DE0067A598 /* Debug */,
+				D093A9A72B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9A82B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9A92B2CF7DE0067A598 /* Debug */,
+				D093A9AA2B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9AB2B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9AC2B2CF7DE0067A598 /* Debug */,
+				D093A9AD2B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9AE2B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9AF2B2CF7DE0067A598 /* Debug */,
+				D093A9B02B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D093A9B12B2CF7DE0067A598 /* Build configuration list for PBXNativeTarget "lifeUltra Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D093A9B22B2CF7DE0067A598 /* Debug */,
+				D093A9B32B2CF7DE0067A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D093A94D2B2CF7DC0067A598 /* Project object */;
+}
