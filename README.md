@@ -34,13 +34,13 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
 
 ### multi-platforms function distrbuion
 
-| :function-set: | :widget: | :watchOS: | :ios: | :macOS: | :icloud: |
-|----------------|----------|-----------|-------|---------|----------|
-| :statics:      |    :Y:   |   :Y:     |       |         |          |
-| :collector:    |          |   :Y:     |  :Y:  |         |          |
-| :edit:         |          |           |  :Y:  |   :Y:   |          |
-| :manager:      |          |           |       |   :Y:   |          |
-| :data:         |          |           |       |   :Y:   |   :Y:    |
+| function-set | widget | watchOS | ios | macOS | icloud |
+|:------------:|:------:|:-------:|:---:|:-----:|:------:|
+| statics      |   [x]  |   [x]   |     |       |        |
+| collector    |        |   [x]   | [x] |       |        |
+| edit         |        |         | [x] |  [x]  |        |
+| manager      |        |         |     |  [x]  |        |
+| data         |        |         |     |  [x]  |  [x]   |
 
 
 ### Views/Objects Hierarchy
