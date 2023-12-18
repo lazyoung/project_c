@@ -32,9 +32,9 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
 
 ## Logic designs
 
-### multi-platforms function distrbuion
+### multi-platforms function distribution
 
-| function-set | widget | watchOS | ios | macOS | icloud |
+| function-set | widget | watchOS | iOS | macOS | icloud |
 |:------------:|:------:|:-------:|:---:|:-----:|:------:|
 | statics      |   [x]  |   [x]   | [x] |       |        |
 | collector    |        |   [x]   | [x] |       |        |
