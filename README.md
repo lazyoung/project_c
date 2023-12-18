@@ -36,11 +36,11 @@ Calculate, display and analyze daily self-discipline points based on multi-dimen
 
 | function-set | widget | watchOS | ios | macOS | icloud |
 |:------------:|:------:|:-------:|:---:|:-----:|:------:|
-| statics      |   [x]  |   [x]   |     |       |        |
+| statics      |   [x]  |   [x]   | [x] |       |        |
 | collector    |        |   [x]   | [x] |       |        |
-| edit         |        |         | [x] |  [x]  |        |
-| manager      |        |         |     |  [x]  |        |
-| data         |        |         |     |  [x]  |  [x]   |
+| edit         |        |         | [x] |       |        |
+| manager      |        |         | [x] |  [x]  |        |
+| data         |        |         | [x] |  [x]  |  [x]   |
 
 
 ### Views/Objects Hierarchy
