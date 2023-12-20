@@ -8,12 +8,11 @@
 import SwiftUI
 
 @main
-struct lifeUltraApp: App {
-    @Environment(\.modelContext) private var dataContext
-    
+struct lifeUltraApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: CoinItem.self)
         }
     }
 }

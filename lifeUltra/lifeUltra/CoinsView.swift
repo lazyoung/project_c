@@ -15,7 +15,7 @@ struct CoinsView: View {
             
             HStack(alignment: .center) {
                 Text("\(coinItemName):")
-                    .font(.largeTitle)
+                    .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color.yellow)
                     .padding()
@@ -29,6 +29,6 @@ struct CoinsView: View {
                     .padding()
             }
         }
-        .frame(height: 50)
+        .frame(height: 40)
     }
 }

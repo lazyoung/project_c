@@ -11,7 +11,7 @@
 		D012CA532B2DAB29000B4DC0 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */; };
 		D012CA542B2DAB29000B4DC0 /* TimerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */; };
 		D093A9592B2CF7DC0067A598 /* lifeUltraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */; };
-		D093A95B2B2CF7DC0067A598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A95A2B2CF7DC0067A598 /* ContentView.swift */; };
+		D093A95B2B2CF7DC0067A598 /* TabSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A95A2B2CF7DC0067A598 /* TabSwitchView.swift */; };
 		D093A95D2B2CF7DD0067A598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A95C2B2CF7DD0067A598 /* Assets.xcassets */; };
 		D093A9602B2CF7DD0067A598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D093A95F2B2CF7DD0067A598 /* Preview Assets.xcassets */; };
 		D093A96A2B2CF7DD0067A598 /* lifeUltraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9692B2CF7DD0067A598 /* lifeUltraTests.swift */; };
@@ -93,6 +93,16 @@
 		D0C2C29D2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
 		D0C2C29E2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
 		D0C2C29F2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
+		D0C2C2B32B335B4B00969B47 /* CoinHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2B22B335B4B00969B47 /* CoinHistoryView.swift */; };
+		D0C2C2B42B335B4B00969B47 /* CoinHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2B22B335B4B00969B47 /* CoinHistoryView.swift */; };
+		D0C2C2B52B335B4B00969B47 /* CoinHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2B22B335B4B00969B47 /* CoinHistoryView.swift */; };
+		D0C2C2B82B335BD300969B47 /* TabSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A95A2B2CF7DC0067A598 /* TabSwitchView.swift */; };
+		D0C2C2B92B335BD300969B47 /* TabSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A95A2B2CF7DC0067A598 /* TabSwitchView.swift */; };
+		D0C2C2BA2B335BD900969B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9822B2CF7DE0067A598 /* ContentView.swift */; };
+		D0C2C2BB2B335BDA00969B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9822B2CF7DE0067A598 /* ContentView.swift */; };
+		D0C2C2BD2B337DF100969B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2BC2B337DF100969B47 /* ContentView.swift */; };
+		D0C2C2BE2B337DF100969B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2BC2B337DF100969B47 /* ContentView.swift */; };
+		D0C2C2BF2B337DF100969B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2BC2B337DF100969B47 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,7 +161,7 @@
 		D012CA512B2DAB29000B4DC0 /* TimerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerMainView.swift; sourceTree = "<group>"; };
 		D093A9552B2CF7DC0067A598 /* lifeUltra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeUltra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeUltraApp.swift; sourceTree = "<group>"; };
-		D093A95A2B2CF7DC0067A598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D093A95A2B2CF7DC0067A598 /* TabSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitchView.swift; sourceTree = "<group>"; };
 		D093A95C2B2CF7DD0067A598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D093A95F2B2CF7DD0067A598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D093A9652B2CF7DD0067A598 /* lifeUltraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeUltraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +192,8 @@
 		D0A92F362B2D0D430081F69F /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		D0C2C2932B32C3C400969B47 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 		D0C2C29A2B32EA0D00969B47 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D0C2C2B22B335B4B00969B47 /* CoinHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHistoryView.swift; sourceTree = "<group>"; };
+		D0C2C2BC2B337DF100969B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +271,7 @@
 		D093A9572B2CF7DC0067A598 /* lifeUltra */ = {
 			isa = PBXGroup;
 			children = (
+				D0C2C2B22B335B4B00969B47 /* CoinHistoryView.swift */,
 				D0C2C29A2B32EA0D00969B47 /* Colors.swift */,
 				D0C2C2932B32C3C400969B47 /* Datas.swift */,
 				D093A9D52B2CFD790067A598 /* TimerMainView.swift */,
@@ -272,9 +285,10 @@
 				D093A9D72B2CFD790067A598 /* TimerView.swift */,
 				D093A9CE2B2CFD3F0067A598 /* CoinsView.swift */,
 				D093A9582B2CF7DC0067A598 /* lifeUltraApp.swift */,
-				D093A95A2B2CF7DC0067A598 /* ContentView.swift */,
+				D093A95A2B2CF7DC0067A598 /* TabSwitchView.swift */,
 				D093A95C2B2CF7DD0067A598 /* Assets.xcassets */,
 				D093A95E2B2CF7DD0067A598 /* Preview Content */,
+				D0C2C2BC2B337DF100969B47 /* ContentView.swift */,
 			);
 			path = lifeUltra;
 			sourceTree = "<group>";
@@ -566,15 +580,17 @@
 			files = (
 				D093A9E62B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E02B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D0C2C2BD2B337DF100969B47 /* ContentView.swift in Sources */,
 				D093AA092B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D0C2C29B2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9F22B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D0A92F3C2B2D0D4B0081F69F /* TaskRow.swift in Sources */,
-				D093A95B2B2CF7DC0067A598 /* ContentView.swift in Sources */,
+				D093A95B2B2CF7DC0067A598 /* TabSwitchView.swift in Sources */,
 				D093AA1C2B2D0AC70067A598 /* TaskView.swift in Sources */,
 				D093AA152B2CFD830067A598 /* Task.swift in Sources */,
 				D093A9592B2CF7DC0067A598 /* lifeUltraApp.swift in Sources */,
 				D093A9CF2B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2B32B335B4B00969B47 /* CoinHistoryView.swift in Sources */,
 				D0C2C2942B32C3C400969B47 /* Datas.swift in Sources */,
 				D0A92F352B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
 				D093A9EC2B2CFD790067A598 /* TimerManager.swift in Sources */,
@@ -587,10 +603,13 @@
 			files = (
 				D093A9F32B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D093A9E72B2CFD790067A598 /* TimerView.swift in Sources */,
+				D0C2C2BE2B337DF100969B47 /* ContentView.swift in Sources */,
+				D0C2C2B42B335B4B00969B47 /* CoinHistoryView.swift in Sources */,
 				D0A92F3B2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
 				D093AA1D2B2D0AC70067A598 /* TaskView.swift in Sources */,
 				D093AA0A2B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D093AA162B2CFD830067A598 /* Task.swift in Sources */,
+				D0C2C2B82B335BD300969B47 /* TabSwitchView.swift in Sources */,
 				D093A96A2B2CF7DD0067A598 /* lifeUltraTests.swift in Sources */,
 				D0A92F342B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
 				D0C2C29C2B32EA0D00969B47 /* Colors.swift in Sources */,
@@ -607,15 +626,18 @@
 			files = (
 				D093A9E82B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E22B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D0C2C2B92B335BD300969B47 /* TabSwitchView.swift in Sources */,
 				D093AA0B2B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D0C2C29D2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9F42B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D0A92F3A2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
+				D0C2C2BF2B337DF100969B47 /* ContentView.swift in Sources */,
 				D093A9742B2CF7DD0067A598 /* lifeUltraUITests.swift in Sources */,
 				D093AA1E2B2D0AC70067A598 /* TaskView.swift in Sources */,
 				D093AA172B2CFD830067A598 /* Task.swift in Sources */,
 				D093A9762B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift in Sources */,
 				D093A9D12B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2B52B335B4B00969B47 /* CoinHistoryView.swift in Sources */,
 				D0C2C2962B32C3C400969B47 /* Datas.swift in Sources */,
 				D0A92F332B2D0CFC0081F69F /* TimerMainView.swift in Sources */,
 				D093A9EE2B2CFD790067A598 /* TimerManager.swift in Sources */,
@@ -649,6 +671,7 @@
 			files = (
 				D093A9F62B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D093A9EA2B2CFD790067A598 /* TimerView.swift in Sources */,
+				D0C2C2BA2B335BD900969B47 /* ContentView.swift in Sources */,
 				D0A92F502B2D19EB0081F69F /* TaskView.swift in Sources */,
 				D093AA0D2B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D093AA192B2CFD830067A598 /* Task.swift in Sources */,
@@ -669,6 +692,7 @@
 			files = (
 				D093A9EB2B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E52B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D0C2C2BB2B335BDA00969B47 /* ContentView.swift in Sources */,
 				D093AA0E2B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D093A9F72B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D012CA542B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,

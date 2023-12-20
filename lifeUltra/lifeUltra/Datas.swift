@@ -19,7 +19,7 @@ class TaskCoin {
     var social: Int
     var finace: Int
     var interest: Int
-    var total: Int = 0
+    var sum: Int = 0
     
     init(sleep: Int = 0, diet: Int = 0, work: Int = 0, sport: Int = 0, read: Int = 0, mood: Int = 0, social: Int = 0, finace: Int = 0, interest: Int = 0) {
         self.sleep = sleep
@@ -33,36 +33,55 @@ class TaskCoin {
         self.interest = interest
     }
     
-    func sum() {
-        self.total = sleep + diet + work + sport + read + mood + social + finace + interest
+    func save(storage: [Int]) {
+        self.sleep = storage[0]
+        self.diet = storage[1]
+        self.work = storage[2]
+        self.sport = storage[3]
+        self.read = storage[4]
+        self.mood = storage[5]
+        self.social = storage[6]
+        self.finace = storage[7]
+        self.interest = storage[8]
+
+        for task in storage {
+            self.sum += task
+        }
     }
 }
 
 @Model
 class TimerCoin {
     var sections: Int
-    var total: Int = 0
+    var sum: Int = 0
     
     init(sections: Int = 1) {
         self.sections = sections
     }
     
-    func sum() {
-        self.total = sections * 25 + 10
+    func save(sections: Int) {
+        self.sum = sections * 25 + 10
     }
 }
 
 @Model
-class Coins {
-    var date: Date
+class CoinItem {
+    @Attribute(.unique) var day: String
     var task: TaskCoin
     var timer: TimerCoin
-    var daily: Int
+    var sum: Int
     
     init(task: TaskCoin, timer: TimerCoin) {
-        self.date = Date.now
         self.task = task
         self.timer = timer
-        self.daily = task.total + timer.total
+        let df = DateFormatter()
+        df.dateFormat = "yyyyMMddHHmmss"
+        self.day = df.string(from: Date())
+        
+        self.sum = 0
+    }
+    
+    func save() {
+        self.sum = self.task.sum + self.timer.sum
     }
 }
