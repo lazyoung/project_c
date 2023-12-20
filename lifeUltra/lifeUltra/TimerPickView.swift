@@ -2,25 +2,27 @@ import SwiftUI
 
 struct TimerPickerView: View {
     
-    @Binding var bindingNum: Int
-    @State var selectionIndex: Int
+    @Binding var num: Int
+    @State var id: Int
     
-    let lowerBound: Int
-    let upperBound: Int
-    let unit: String
+    let list: [Int]
+    var unit: String = "Minutes"
     
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         
-        Picker("Picker", selection: $selectionIndex) {
-            ForEach(lowerBound ..< upperBound, id:\.self) {
-                Text("\($0) \(unit)")
+        Picker("Picker", selection: $id) {
+            ForEach(0 ..< list.count, id:\.self) {
+                Text("\(list[$0]) \(unit)")
             }
         }
         .pickerStyle(WheelPickerStyle())
-        .onChange(of: selectionIndex) {
-            bindingNum =  (selectionIndex + lowerBound)
+        .onChange(of: id) {
+            num = list[id]
+        }
+        .onAppear() {
+            num = list[id]
         }
     }
     

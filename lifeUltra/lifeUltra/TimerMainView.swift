@@ -35,7 +35,7 @@ struct TimerMainView: View {
                 
                 VStack {
                     NavigationLink(
-                        destination: TimerPickerView(bindingNum: $work, selectionIndex: (work - 10), lowerBound: 1, upperBound: 60, unit: "Minutes"),
+                        destination: TimerPickerView(num: $work, id: 0, list: [30, 60, 90]),
                         label: {
                             TimerSettingsRowView(iconName: "hammer.fill", iconColor: Color.blue, firstText: "Work", secondText: "\(work) Minutes")
                                 .padding(.vertical, 3)
@@ -43,7 +43,7 @@ struct TimerMainView: View {
                         }).id(UUID())
                     
                     NavigationLink(
-                        destination: TimerPickerView(bindingNum: $shortRest, selectionIndex: (shortRest - 5), lowerBound: 1, upperBound: 30, unit: "Minutes"),
+                        destination: TimerPickerView(num: $shortRest, id: 0, list: [5, 10, 15]),
                         label: {
                             TimerSettingsRowView(iconName: "die.face.3.fill", iconColor: Color.green, firstText: "Short Break", secondText: "\(shortRest) Minutes")
                                 .padding(.vertical, 3)
@@ -51,7 +51,7 @@ struct TimerMainView: View {
                         }).id(UUID())
                     
                     NavigationLink(
-                        destination: TimerPickerView(bindingNum: $longRest, selectionIndex: (longRest - 15), lowerBound: 1, upperBound: 90, unit: "Minutes"),
+                        destination: TimerPickerView(num: $longRest, id: 0, list: [20, 30, 45]),
                         label: {
                             TimerSettingsRowView(iconName: "bed.double.fill", iconColor: Color.orange, firstText: "Long Break", secondText: "\(longRest) Minutes")
                                 .padding(.vertical, 3)
@@ -59,7 +59,7 @@ struct TimerMainView: View {
                         }).id(UUID())
                     
                     NavigationLink(
-                        destination: TimerPickerView(bindingNum: $numOfSection, selectionIndex: (numOfSection - 2), lowerBound: 1, upperBound: 10, unit: "Sections"),
+                        destination: TimerPickerView(num: $numOfSection, id: 0, list: [1, 2, 3], unit: "Sections"),
                         label: {
                             TimerSettingsRowView(iconName: "rectangle.stack", iconColor: Color.red, firstText: "Sections", secondText:"\(numOfSection)")
                                 .padding(.vertical, 3)
@@ -69,24 +69,24 @@ struct TimerMainView: View {
             }
         }
         .onChange(of: work) {
-            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.storage = TimerStorage(workMinutes: work, shortRelaxMinutes: shortRest, longRelaxMinutes: longRest, numOfSections: numOfSection)
             timerManager.resetTimer()
         }
         .onChange(of: shortRest) {
-            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.storage = TimerStorage(workMinutes: work, shortRelaxMinutes: shortRest, longRelaxMinutes: longRest, numOfSections: numOfSection)
             timerManager.resetTimer()
         }
         
         .onChange(of: longRest) {
-            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.storage = TimerStorage(workMinutes: work, shortRelaxMinutes: shortRest, longRelaxMinutes: longRest, numOfSections: numOfSection)
             timerManager.resetTimer()
         }
         .onChange(of: numOfSection) {
-            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.storage = TimerStorage(workMinutes: work, shortRelaxMinutes: shortRest, longRelaxMinutes: longRest, numOfSections: numOfSection)
             timerManager.resetTimer()
         }
         .onAppear() {
-            timerManager.storage = TimerStorage(workSeconds: work, shortRelaxSeconds: shortRest, longRelaxSeconds: longRest, numOfSections: numOfSection)
+            timerManager.storage = TimerStorage(workMinutes: work, shortRelaxMinutes: shortRest, longRelaxMinutes: longRest, numOfSections: numOfSection)
             timerManager.currentMinute = timerManager.storage.workSeconds
             timerManager.coins = 0
         }

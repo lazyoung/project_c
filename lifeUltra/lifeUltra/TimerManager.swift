@@ -10,13 +10,13 @@ struct TimerStorage: Equatable {
     let oneSectionTotalSeconds: Int
     let storage: [Int]
     
-    init(workSeconds: Int = 5, shortRelaxSeconds: Int = 2, longRelaxSeconds: Int = 3, numOfSections: Int = 2) {
+    init(workMinutes: Int = 0, shortRelaxMinutes: Int = 0, longRelaxMinutes: Int = 0, numOfSections: Int = 0) {
         
-        self.workSeconds = workSeconds
-        self.shortRelaxSeconds = shortRelaxSeconds
-        self.longRelaxSeconds = longRelaxSeconds
+        self.workSeconds = workMinutes * 60
+        self.shortRelaxSeconds = shortRelaxMinutes * 60
+        self.longRelaxSeconds = longRelaxMinutes * 60
         self.numOfSections = numOfSections
-        self.oneSectionTotalSeconds = workSeconds + shortRelaxSeconds
+        self.oneSectionTotalSeconds = workMinutes * 60 + shortRelaxMinutes * 60
         
         storage = [workSeconds, shortRelaxSeconds, longRelaxSeconds, numOfSections]
     }
@@ -149,7 +149,6 @@ class TimerManager: ObservableObject {
     func addcoin(amount: Int) {
         if self.multiplierInfo[0] as! Bool == true {
             self.coins += (amount * (self.multiplierInfo[1] as! Int))
-            
         } else {
             self.coins += amount
         }

@@ -61,12 +61,6 @@
 		D093AA0C2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
 		D093AA0D2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
 		D093AA0E2B2CFD830067A598 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FA2B2CFD830067A598 /* TaskManager.swift */; };
-		D093AA0F2B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
-		D093AA102B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
-		D093AA112B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
-		D093AA122B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
-		D093AA132B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
-		D093AA142B2CFD830067A598 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FB2B2CFD830067A598 /* Colors.swift */; };
 		D093AA152B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
 		D093AA162B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
 		D093AA172B2CFD830067A598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093A9FC2B2CFD830067A598 /* Task.swift */; };
@@ -88,6 +82,17 @@
 		D0A92F4F2B2D19EA0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
 		D0A92F502B2D19EB0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
 		D0A92F512B2D19EC0081F69F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093AA1B2B2D0AC70067A598 /* TaskView.swift */; };
+		D0C2C2942B32C3C400969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C2952B32C3C400969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C2962B32C3C400969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C2972B32C3C400969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C2982B32C3C400969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C2992B32E18000969B47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C2932B32C3C400969B47 /* Datas.swift */; };
+		D0C2C29B2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
+		D0C2C29C2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
+		D0C2C29D2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
+		D0C2C29E2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
+		D0C2C29F2B32EA0D00969B47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2C29A2B32EA0D00969B47 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,10 +177,11 @@
 		D093A9D92B2CFD790067A598 /* TimerSettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSettingsRowView.swift; sourceTree = "<group>"; };
 		D093A9F92B2CFD830067A598 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		D093A9FA2B2CFD830067A598 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
-		D093A9FB2B2CFD830067A598 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		D093A9FC2B2CFD830067A598 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D093AA1B2B2D0AC70067A598 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		D0A92F362B2D0D430081F69F /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		D0C2C2932B32C3C400969B47 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		D0C2C29A2B32EA0D00969B47 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,9 +259,10 @@
 		D093A9572B2CF7DC0067A598 /* lifeUltra */ = {
 			isa = PBXGroup;
 			children = (
+				D0C2C29A2B32EA0D00969B47 /* Colors.swift */,
+				D0C2C2932B32C3C400969B47 /* Datas.swift */,
 				D093A9D52B2CFD790067A598 /* TimerMainView.swift */,
 				D093AA1B2B2D0AC70067A598 /* TaskView.swift */,
-				D093A9FB2B2CFD830067A598 /* Colors.swift */,
 				D093A9FC2B2CFD830067A598 /* Task.swift */,
 				D093A9F92B2CFD830067A598 /* TaskRow.swift */,
 				D093A9FA2B2CFD830067A598 /* TaskManager.swift */,
@@ -557,10 +564,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D093AA0F2B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9E62B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E02B2CFD790067A598 /* TimerPickView.swift in Sources */,
 				D093AA092B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D0C2C29B2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9F22B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D0A92F3C2B2D0D4B0081F69F /* TaskRow.swift in Sources */,
 				D093A95B2B2CF7DC0067A598 /* ContentView.swift in Sources */,
@@ -568,6 +575,7 @@
 				D093AA152B2CFD830067A598 /* Task.swift in Sources */,
 				D093A9592B2CF7DC0067A598 /* lifeUltraApp.swift in Sources */,
 				D093A9CF2B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2942B32C3C400969B47 /* Datas.swift in Sources */,
 				D0A92F352B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
 				D093A9EC2B2CFD790067A598 /* TimerManager.swift in Sources */,
 			);
@@ -578,7 +586,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D093A9F32B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
-				D093AA102B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9E72B2CFD790067A598 /* TimerView.swift in Sources */,
 				D0A92F3B2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
 				D093AA1D2B2D0AC70067A598 /* TaskView.swift in Sources */,
@@ -586,9 +593,11 @@
 				D093AA162B2CFD830067A598 /* Task.swift in Sources */,
 				D093A96A2B2CF7DD0067A598 /* lifeUltraTests.swift in Sources */,
 				D0A92F342B2D0CFD0081F69F /* TimerMainView.swift in Sources */,
+				D0C2C29C2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9E12B2CFD790067A598 /* TimerPickView.swift in Sources */,
 				D093A9ED2B2CFD790067A598 /* TimerManager.swift in Sources */,
 				D093A9D02B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2952B32C3C400969B47 /* Datas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,10 +605,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D093AA112B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9E82B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E22B2CFD790067A598 /* TimerPickView.swift in Sources */,
 				D093AA0B2B2CFD830067A598 /* TaskManager.swift in Sources */,
+				D0C2C29D2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9F42B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
 				D0A92F3A2B2D0D4A0081F69F /* TaskRow.swift in Sources */,
 				D093A9742B2CF7DD0067A598 /* lifeUltraUITests.swift in Sources */,
@@ -607,6 +616,7 @@
 				D093AA172B2CFD830067A598 /* Task.swift in Sources */,
 				D093A9762B2CF7DD0067A598 /* lifeUltraUITestsLaunchTests.swift in Sources */,
 				D093A9D12B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2962B32C3C400969B47 /* Datas.swift in Sources */,
 				D0A92F332B2D0CFC0081F69F /* TimerMainView.swift in Sources */,
 				D093A9EE2B2CFD790067A598 /* TimerManager.swift in Sources */,
 			);
@@ -616,10 +626,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D093AA122B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9E92B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E32B2CFD790067A598 /* TimerPickView.swift in Sources */,
 				D0A92F372B2D0D430081F69F /* TaskRow.swift in Sources */,
+				D0C2C29E2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093AA0C2B2CFD830067A598 /* TaskManager.swift in Sources */,
 				D012CA522B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,
 				D093A9F52B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
@@ -627,6 +637,7 @@
 				D0A92F4F2B2D19EA0081F69F /* TaskView.swift in Sources */,
 				D093AA182B2CFD830067A598 /* Task.swift in Sources */,
 				D093A9812B2CF7DE0067A598 /* lifeUltraApp.swift in Sources */,
+				D0C2C2972B32C3C400969B47 /* Datas.swift in Sources */,
 				D093A9D22B2CFD3F0067A598 /* CoinsView.swift in Sources */,
 				D093A9EF2B2CFD790067A598 /* TimerManager.swift in Sources */,
 			);
@@ -637,7 +648,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D093A9F62B2CFD790067A598 /* TimerSettingsRowView.swift in Sources */,
-				D093AA132B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9EA2B2CFD790067A598 /* TimerView.swift in Sources */,
 				D0A92F502B2D19EB0081F69F /* TaskView.swift in Sources */,
 				D093AA0D2B2CFD830067A598 /* TaskManager.swift in Sources */,
@@ -645,9 +655,11 @@
 				D0A92F382B2D0D430081F69F /* TaskRow.swift in Sources */,
 				D093A9922B2CF7DE0067A598 /* lifeUltra_Watch_AppTests.swift in Sources */,
 				D093A9E42B2CFD790067A598 /* TimerPickView.swift in Sources */,
+				D0C2C29F2B32EA0D00969B47 /* Colors.swift in Sources */,
 				D093A9F02B2CFD790067A598 /* TimerManager.swift in Sources */,
 				D012CA532B2DAB29000B4DC0 /* TimerMainView.swift in Sources */,
 				D093A9D32B2CFD3F0067A598 /* CoinsView.swift in Sources */,
+				D0C2C2982B32C3C400969B47 /* Datas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +667,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D093AA142B2CFD830067A598 /* Colors.swift in Sources */,
 				D093A9EB2B2CFD790067A598 /* TimerView.swift in Sources */,
 				D093A9E52B2CFD790067A598 /* TimerPickView.swift in Sources */,
 				D093AA0E2B2CFD830067A598 /* TaskManager.swift in Sources */,
@@ -666,6 +677,7 @@
 				D0A92F512B2D19EC0081F69F /* TaskView.swift in Sources */,
 				D093A99E2B2CF7DE0067A598 /* lifeUltra_Watch_AppUITestsLaunchTests.swift in Sources */,
 				D0A92F392B2D0D430081F69F /* TaskRow.swift in Sources */,
+				D0C2C2992B32E18000969B47 /* Datas.swift in Sources */,
 				D093A9D42B2CFD3F0067A598 /* CoinsView.swift in Sources */,
 				D093A9F12B2CFD790067A598 /* TimerManager.swift in Sources */,
 			);

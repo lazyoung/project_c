@@ -11,7 +11,7 @@ struct TimerView: View {
         ZStack {
             VStack {
                if timerManager.timerStart {
-                   Text("\(timerManager.currentMinute) min")
+                   Text("\(timerManager.currentMinute) sec")
                        .fontWeight(.bold)
                         .font(.system(size: 45))
                }

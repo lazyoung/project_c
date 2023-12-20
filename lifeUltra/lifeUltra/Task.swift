@@ -6,11 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct TaskItem: Identifiable, Hashable, Codable {
+struct TaskItem: Identifiable, Hashable {
     var id = UUID()
     var category: String = ""
-    var color: RGBAColor = ColorOptions.random().rgbaColor
     var title: String = "Untitled"
     var date = Date.now
     var score: Int = 0
@@ -28,6 +28,20 @@ struct TaskItem: Identifiable, Hashable, Codable {
     ]
     
     func symbol() -> String { symbolNames[category] ?? "xmark.circle" }
+    
+    private var symbolColors: [String: Color] = [
+        "sleep": .gray,
+        "diet": .orange,
+        "work": .purple,
+        "sport": .green,
+        "read": .blue,
+        "mood": .red,
+        "social": .mint,
+        "finace": .brown,
+        "interest": .indigo
+    ]
+    
+    func color() -> Color { symbolColors[category] ?? .primary }
 
     static var basicItems: [TaskItem] = [
         TaskItem(category: "sleep", title: "Sleep"),

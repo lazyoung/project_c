@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct lifeUltraApp: App {
+    @Environment(\.modelContext) private var dataContext
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

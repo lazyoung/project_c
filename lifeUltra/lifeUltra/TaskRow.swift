@@ -17,7 +17,7 @@ struct TaskRow: View {
                 Image(systemName: task.symbol())
                     .resizable()
                     .scaledToFit()
-                    .foregroundStyle(Color(task.color))
+                    .foregroundStyle(Color(task.color().rgbaColor))
             }
             .scaledToFit()
             .padding()
@@ -29,7 +29,7 @@ struct TaskRow: View {
                     Spacer()
                     Text(" \(taskManager.coin(index: taskIndex))")
                         .font(.largeTitle)
-                        .foregroundStyle(Color(task.color))
+                        .foregroundStyle(Color(task.color().rgbaColor))
                         .frame(alignment: .trailing)
                 }
             } onIncrement: {

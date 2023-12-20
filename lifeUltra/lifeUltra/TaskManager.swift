@@ -12,7 +12,7 @@ class TaskManager: ObservableObject {
     @Published var sum : Int = 0
 
     var storage : [Int]
-    
+
     init(multiFactor: Int = 20, storage: [Int] = [0, 0, 0, 0, 0, 0, 0, 0, 0]) {
         self.multiFactor = multiFactor
         self.storage = storage
@@ -23,15 +23,15 @@ class TaskManager: ObservableObject {
     }
 
     func add(index: Int, value : Int = 1) {
-        storage[index] += value
+        storage[index] += value * multiFactor
         sum += value * multiFactor
     }
     
     func sub(index: Int, value : Int = 1) {
-        storage[index] -= value
+        storage[index] -= value * multiFactor
         sum -= value * multiFactor
     }
-    
+
     func coin(index: Int) -> Int {
         return storage[index] * multiFactor
     }

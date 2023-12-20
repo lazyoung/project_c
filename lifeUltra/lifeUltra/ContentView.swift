@@ -6,26 +6,25 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
-    
     @StateObject var timerManager: TimerManager = TimerManager()
     @StateObject var taskManager: TaskManager = TaskManager()
     @State var timerCoins : Int = 0
     @State var taskCoins : Int = 0
     
-    @State private var work: Int = 5
-    @State private var shortRest: Int = 2
-    @State private var longRest: Int = 3
-    @State private var numOfSection: Int = 2
+    @State private var work: Int = 30
+    @State private var shortRest: Int = 5
+    @State private var longRest: Int = 20
+    @State private var numOfSection: Int = 1
     @State private var itemCoins: Int = 0
     @State private var dailyCoins: Int = 0
     @State private var coinItemName: String = "nil"
     
     var body: some View {
-        
-        NavigationView {
 
+        NavigationView {
             VStack {
                 CoinsView(
                     itemCoins: $itemCoins,
@@ -34,22 +33,20 @@ struct ContentView: View {
                 )
                 .padding(.horizontal, 20)
                 .padding(.top, 10)
-
+                
                 TabView() {
                     TaskView(taskManager: taskManager)
-                    .onAppear() {
-                        coinItemName = "Task"
-                        taskCoins = taskManager.sum // update to current View
-                        itemCoins = taskCoins // update to CoinsView
-                        dailyCoins = timerCoins + taskCoins // update to CoinsView
-                        print("Task View appear")
-                    }
-                    .onChange(of: taskManager.sum) {
-                        taskCoins = taskManager.sum // update to current View
-                        itemCoins = taskCoins // update to CoinsView
-                        dailyCoins = timerCoins + taskCoins // update to CoinsView
-                        print("Task View change")
-                    }
+                        .onAppear() {
+                            coinItemName = "Task"
+                            taskCoins = taskManager.sum // update to current View
+                            itemCoins = taskCoins // update to CoinsView
+                            dailyCoins = timerCoins + taskCoins // update to CoinsView
+                        }
+                        .onChange(of: taskManager.sum) {
+                            taskCoins = taskManager.sum // update to current View
+                            itemCoins = taskCoins // update to CoinsView
+                            dailyCoins = timerCoins + taskCoins // update to CoinsView
+                        }
                     
                     TimerMainView(
                         timerManager: timerManager,
@@ -65,13 +62,11 @@ struct ContentView: View {
                         timerCoins += timerManager.coins // update to current View
                         itemCoins = timerCoins // update to CoinsView
                         dailyCoins = timerCoins + taskCoins // update to CoinsView
-                        print("Timer View appear")
                     }
                     .onChange(of: timerManager.coins) {
                         timerCoins += timerManager.coins // update to current View
                         itemCoins = timerCoins // update to CoinsView
                         dailyCoins = timerCoins + taskCoins // update to CoinsView
-                        print("Timer View change")
                     }
                     // TODO: alarm check view
                     // TODO: personal health view

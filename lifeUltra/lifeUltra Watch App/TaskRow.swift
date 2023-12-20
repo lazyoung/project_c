@@ -11,13 +11,13 @@ struct TaskRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(height: 40)
-                .foregroundStyle(Color(task.color))
+                .foregroundStyle(Color(task.color().rgbaColor))
             Spacer()
 
             Stepper {
                 HStack {
                     Text(" \(taskManager.coin(index: taskIndex))")
-                        .foregroundStyle(Color(task.color))
+                        .foregroundStyle(Color(task.color().rgbaColor))
                         .font(.title2)
                 }
             } onIncrement: {

@@ -13,16 +13,15 @@ struct CoinsView: View {
         ZStack {
             RoundedRectangle(cornerRadius: cornerRadius).strokeBorder(Color.yellow, lineWidth: 2)
             
-            HStack {
-                HStack {
-                    Text(" \(coinItemName):")
-                        .font(.body)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.yellow)
-                }
-                            
+            HStack(alignment: .center) {
+                Text("\(coinItemName):")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.yellow)
+                    .padding()
+                
                 Spacer()
-
+                
                 Text(" \(itemCoins) / \(dailyCoins)")
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -33,4 +32,3 @@ struct CoinsView: View {
         .frame(height: 50)
     }
 }
-
